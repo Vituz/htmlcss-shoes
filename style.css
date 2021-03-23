@@ -3,3 +3,41 @@
     margin: 0;
     padding: 0;
 }
+
+.contenitore{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    border: 1px solid black;
+}
+
+
+body{
+    font-family: Rubik Mono One;
+}
+
+.red_bg{
+    background-color: red;
+}
+
+.image{
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_color{
+    color: rgba(255, 255, 0, 1);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    text-align: center;
+}
+
+.center{
+    
+}
